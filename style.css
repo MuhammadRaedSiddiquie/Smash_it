@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.main {
+  background-image: linear-gradient(to right, rgba(243, 200, 165, 0.6), rgba(247, 229, 195, 0.6)), url('bg1.jpg');
+  background-position: center;
+  background-size: cover;
+  
+  cursor: pointer;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  
+}
+/* .game1:hover{
+   background-color:rgba(255, 0, 0, 0.466);
+} */
+.head1{
+    font-size: 70px;
+    color: rgb(201, 35, 35);
+    font-family: monospace;
+    font-weight: bold;
+
+ 
+  }
+.head2{
+  color: rgb(201, 35, 35);
+    font-family: monospace;
+    font-size: 40px;
+    visibility: hidden;
+}
+.points{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 10px;
+}
+.game1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  
+  
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+display: none;
+justify-content: flex-end;
+align-items: flex-start;
+}
+.heading{
+  margin-top: 60px;
+  font-size: 100px;
+  color: rgb(190, 0, 29);
+  font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 5px;
+
+  position: relative;
+  padding: 18px;
+  width: 368px;
+    height: 150px;
+    overflow-x: hidden;
+}
+.heading img{
+  width: 100px;
+  height: 100px;
+position: absolute;
+bottom: 55px;
+    left: 283px;
+}
+/* .game2{
+    width: 100%;
+    height: 43vh;
+    background-color: lightblue;
+    
+  } */
+/* .vid{
+    height: 90vh;
+    width:100%;
+    transform: scaleX(-1);
+  } */
+#US {
+  background-image: url(in1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#USZ {
+  background-image: url(in2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US1 {
+  background-image: url(in1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US1Z {
+  background-image: url(in2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US2 {
+  background-image: url(in1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US2Z {
+  background-image: url(in2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US3 {
+  background-image: url(in1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US3Z {
+  background-image: url(in2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US4 {
+  background-image: url(in1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US4Z {
+  background-image: url(in2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US-0 {
+  background-image: url(in1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US-0Z {
+  background-image: url(in2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US-1 {
+  background-image: url(in1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US-1Z {
+  background-image: url(in2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US-2 {
+  background-image: url(in1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US-2Z {
+  background-image: url(in2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US-3 {
+  background-image: url(in1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US-3Z {
+  background-image: url(in2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US-4 {
+  background-image: url(in1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#US-4Z {
+  background-image: url(in2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.user {
+  /* background-color: red; */
+  display: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  border: 20px solid transparent;
+}
+
+.useranime {
+  animation: forward 12s linear forwards;
+}
+#US{
+  animation: forward 12s linear forwards;
+}
+#US4{
+  animation: forward1 12s linear forwards;
+}
+
+#US1 {
+  animation: forward2 12s linear forwards;
+
+}
+
+#US2 {
+  animation: forward3 12s linear forwards;
+
+}
+
+#US3 {
+  animation: forward4 12s linear forwards;
+
+}
+
+#US-0 {
+  animation: forward2 12s linear forwards;
+
+}
+
+#US-1 {
+  animation: forward8 12s linear forwards;
+
+}
+
+#US-2 {
+  animation: forward7 12s linear forwards;
+
+}
+
+#US-3 {
+  animation: forward6 12s linear forwards;
+
+}
+
+#US-4 {
+  animation: forward5 12s linear forwards;
+
+}
+@keyframes point{
+  0%{
+    transform: translateX(0vw) translateY(2vh) ;
+
+  }
+
+  100%{
+    transform: translateX(-42vw) translateY(38vh) scale(170%);
+
+  }
+}
+@keyframes point2{
+  0%{
+    transform: translateX(-42vw) translateY(38vh) scale(170%);
+    
+  }
+  
+  100%{
+    transform: translateX(0vw) translateY(2vh) ;
+
+  }
+}
+@keyframes forward {
+  0% {
+    transform: translateY(10vh) translateX(-5vw);
+  }
+
+  100% {
+    transform: translateX(105vw) translateY(10vh);
+
+  }
+}
+@keyframes forward1 {
+  0% {
+    transform: translateY(50vh) translateX(105vw) scaleX(-1);
+  }
+
+  100% {
+    transform: translateX(-5vw) translateY(10vh) scaleX(-1);
+
+  }
+}
+
+@keyframes forward2 {
+  0% {
+    transform: translateY(10vh) translateX(105vw) scaleX(-1);
+  }
+
+  100% {
+    transform: translateX(-5vw) translateY(10vh) scaleX(-1);
+
+  }
+}
+
+@keyframes forward3 {
+  0% {
+    transform: translateY(110vh) translateX(-5vw) scaleX(1);
+  }
+
+  100% {
+    transform: translateX(105vw) translateY(-5vh) scaleX(1);
+
+  }
+}
+
+@keyframes forward4 {
+  0% {
+    transform: translateY(-5vh) translateX(105vw) scaleX(-1);
+  }
+
+  100% {
+    transform: translateX(-5vw) translateY(80vh) scaleX(-1);
+
+  }
+}
+
+@keyframes forward5 {
+  0% {
+    transform: translateY(50vh) translateX(105vw) scaleX(-1);
+  }
+  
+  100% {
+    transform: translateX(-5vw) translateY(50vh) scaleX(-1);
+
+  }
+}
+
+@keyframes forward6 {
+  0% {
+    transform: translateY(80vh) translateX(105vw) scaleX(-1);
+  }
+  
+  100% {
+    transform: translateX(-5vw) translateY(80vh) scaleX(-1);
+
+  }
+}
+
+@keyframes forward7 {
+  0% {
+    transform: translateY(25vh) translateX(110vw) scaleX(-1);
+  }
+
+  100% {
+    transform: translateX(-5vw) translateY(55vh) scaleX(-1);
+
+  }
+}
+
+@keyframes forward8 {
+  0% {
+    transform: translateX(-5vw) translateY(80vh) scaleX(1);
+  }
+
+  100% {
+    transform: translateY(50vh) translateX(105vw) scaleX(1);
+
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.cursor {
+  width: 100px;
+  height: 100px;
+  background-image: url('slip.png');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  margin: -40px -46px;
+display: none;
+}
+button {
+  padding: 17px 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(255, 56, 86);
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 200px;
+}
+
+button:hover {
+  box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+button:active {
+  background-color: rgb(255, 56, 86);
+  /*50, 168, 80*/
+  box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
+#btn-2{
+  display: none;
+  padding: 8px 20px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
